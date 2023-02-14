@@ -1,8 +1,7 @@
 # ClassWork 00 For NeXT CS
 ### Class Period:
-### Name0: YOUR NAME HERE
-### Name1: TABLE_BUDDY NAME HERE
-### Name2: TABLE_BUDY+ NAME HERE (if applicable, delete this line if not)
+### Name0: Richard
+### Name1: Anika
 ---
 
 This is a map of average US temperatures from 1991-2020 [source](https://www.climate.gov/sites/default/files/2021-10/Normals_TotalPrecipAvgTemp_Annual_1991-2020_continuous_1400x2193.png)
@@ -25,27 +24,27 @@ Based on the images above, answer the following questions.
 #### Question 0
 What parts of the original map are being highlighted by the edge detection algorithm?
 
-YOUR ANSWER HERE (delete this line)
+Edge detection is highlighting the borders of the states and the countries as well as the letters on the map.
 
 #### Question 1
 What information that was part of the original image has been lost via edge detection?
 
-YOUR ANSWER HERE (delete this line)
+The temperatures on the map have been lost via edge detection.
 
 #### Question 2
 What information is present in the grascale version that is not in the edge detected version?
 
-YOUR ANSWER HERE (delete this line)
+The grayscale version depicts the intensity of the temperatures from the "normal" or white temperature.
 
 #### Question 3
 What information that was part of the original image has been lost via grayscale conversion?
 
-YOUR ANSWER HERE (delete this line)
+Grayscale conversion removed the distinction between the hot areas and cold areas.
 
 #### Question 4
 In a temperature map, it is often useful to highlight particular temperature ranges. If you wanted to focus on higher temperatures, you might want to find a way to programatically highlight regions that are more red than others. Come up with an algorithm that would process the image such that the red regions are more prominent.
 
-YOUR ANSWER HERE (delete this line)
+We would just find the red value of the color and make sure that that value is greater than both the green value and blue value. Using this, we would then highlight the area with greater red value.
 
 ---
 
